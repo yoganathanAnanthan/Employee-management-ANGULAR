@@ -1,0 +1,83 @@
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" >
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Employee management</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="dashboard">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+           
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Actions
+            </div>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" routerLink="employee">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Employee</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" routerLink="department">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Department</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            
+        </ul>
+        <div style="width:100%;">
+            <!-- Main Content -->
+            <div >
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow" class="navbar navbar-dark bg-secondary" style="height:70px;">
+                   
+
+                    <!-- Topbar Navbar -->
+                    <ul >
+                      
+                    <div class="topbar-divider d-none d-sm-block"></div>
+
+                    <!-- Nav Item - User Information -->
+                        
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+<router-outlet></router-outlet>
+
+</div>

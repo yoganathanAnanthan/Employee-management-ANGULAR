@@ -1,0 +1,22 @@
+<div class="form-froup row" style = "width:50%;">
+    <mat-form-field >
+        <input matInput placeholder="Department Name" [(ngModel)]="DepartmentName">
+    </mat-form-field>
+
+    <mat-form-field >
+        <input matInput placeholder="Manager ID" [(ngModel)]="ManagerId">
+    </mat-form-field>
+
+    <mat-form-field >
+        <input matInput placeholder="Number of employees" [(ngModel)]="NoOfEmp">
+    </mat-form-field>
+    
+</div>
+
+<button (click)="addDepartment()" *ngIf="dep.DepartmentId==0" class="btn btn-primary">
+    Add
+</button>
+
+<button (click)="updateDepartment()" *ngIf="dep.DepartmentId!=0" class="btn btn-primary">
+    Update
+</button>

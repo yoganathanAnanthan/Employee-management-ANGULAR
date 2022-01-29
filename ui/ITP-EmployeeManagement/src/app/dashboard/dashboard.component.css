@@ -1,0 +1,29 @@
+.example-card {
+  max-width: 300px;
+  margin-bottom: 50px;
+  float: left;
+}
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .btn1 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 4% 27%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 4% 26.4%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
